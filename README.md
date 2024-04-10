@@ -5,8 +5,8 @@ Here, you can reproduce analysis for calculating recovery time of blue sharks, e
 
 ## cmems
 Folder that contains csv files with extracted modelled data (profiles) from CMEMS, for each tagging and pop-off date/position of each tagged shark (n = 6).
-Oxygen data from the Global Ocean Biogeochemistry Analysis and Forecast product (https://doi.org/10.48670/moi-00015).
-Temperature data from Global Ocean Physics Analysis and Forecast product (https://doi.org/10.48670/moi-00016).
+Oxygen data (DO) from the Global Ocean Biogeochemistry Analysis and Forecast product (https://doi.org/10.48670/moi-00015).
+Temperature data (thetao) from Global Ocean Physics Analysis and Forecast product (https://doi.org/10.48670/moi-00016).
 
 ## files
 Folder that contains csv files with environmental (oxygen and temperature) and acceleration-derived swimming metrics (e.g., tailbeat frequency, pitch, odba) previously extracted from IGOR analysis, for all tagged 
