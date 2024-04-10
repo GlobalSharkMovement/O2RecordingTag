@@ -24,8 +24,7 @@ and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
 
 - the [CMEMS_comparison](scripts/CMEMS_comparison) contains 2 R codes used for evaluating the relationship between in situ (DOME tags) vs modelled (CMEMS) dissolved oxygen [cmems_comparison_o2.R](scripts/CMEMS_comparison/cmems_comparison_o2.R) and temperature [cmems_comparison_tc.R](scripts/CMEMS_comparison/cmems_comparison_tc.R) values. The codes calculate mean differences and relative errors between in situ vs modelled profiles and it creates 3 figures that together constitute figure 9 of the paper.
 
-- RecoveryTime
-This subfolder contains four R scripts:
+- the [RecoveryTime](scripts/RecoveryTime) contains four R scripts:
   - [1.Calculate_RecoveryTime.R](RecoveryTime/1.Calculate_RecoveryTime.R): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
   - [2.Calculate_DescriptiveStat_Overall_RecoveryTime.R](RecoveryTime/2.Calculate_DescriptiveStat_Overall_RecoveryTime.R): defining overall descriptive statistics for environmental and shark swimming metrics;
   - [3.Calculate_DescriptiveStat_DivePhase_RecoveryTime.R](RecoveryTime/3.Calculate_DescriptiveStat_DivePhase_RecoveryTime.R) defining dive phase (ascents vs descents) descriptive statistics;
