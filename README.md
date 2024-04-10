@@ -27,3 +27,6 @@ This subfolder contains 4 R codes used for: (1) calculating recovery time using 
 
 ## tables
 Folder that contains tables generated during analysis (e.g., descriptive statistics).
+
+## metadata
+Folder that contains tables generated during analysis (e.g., descriptive statistics).
