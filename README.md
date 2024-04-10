@@ -16,5 +16,7 @@ sharks (n =3).
 Folder that contains all scrits (codes) used to: calculate recovery times of tagged sharks (RecoveryTime), calculate and compare discriptive statistics of environmental and shark swimming metrics (SummaryTables)
 and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
 
+# RecoveryTime
+
 ## tables
 Folder that contains generated tables from the analysis (e.g., discriptive statistics).
