@@ -30,4 +30,4 @@ This subfolder contains 5 R codes used for: (1) calculating recovery time
 Folder that contains tables generated during analysis (e.g., descriptive statistics).
 
 ## metadata file
-Table with
+Table containing all information regarding the attachment of the DOME archival tags (e.g., tagging date) including shark measurements.
