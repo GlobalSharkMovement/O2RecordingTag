@@ -26,7 +26,7 @@ and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
 
 - RecoveryTime
 This subfolder contains 4 R codes used for:
--(1) calculating recovery time using 5 minutes means and build figure 8 (TBF vs post release time) of the paper; defining
+  - calculating recovery time using 5 minutes means and build figure 8 (TBF vs post release time) of the paper; defining
 -(2) overall and (3) dive phase (ascents vs descents) descriptive statistics for environmental and shark swimming metrics; (4) applying statistical tests comparisons (Mann-Whitney U test ) between recovery vs post-recovery (normal) periods. 
 
 - SummaryTables
