@@ -30,8 +30,12 @@ and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
   - [3.Calculate_DescriptiveStat_DivePhase_RecoveryTime.R](RecoveryTime/3.Calculate_DescriptiveStat_DivePhase_RecoveryTime.R) defining dive phase (ascents vs descents) descriptive statistics;
   - [4.StatisticalTests_RecoveryTime](RecoveryTime/3.Calculate_DescriptiveStat_DivePhase_RecoveryTime.R): applying statistical comparisons (Mann-Whitney U test ) between recovery vs post-recovery (normal) periods. 
 
-- SummaryTables
-This subfolder contains 5 R codes used for: (1) calculating recovery time
+- the [SummaryTables](scripts/SummaryTables) contains five R scripts:
+  - [1.Define_Depth_Threshold](RecoveryTime/1.Define_Depth_Threshold): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
+  - [2.Calculate_DescritiveStats_Overall](RecoveryTime/2.Calculate_DescritiveStats_Overall): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
+  - [3.Calculate_DescritiveStats_DivePhase](RecoveryTime/3.Calculate_DescritiveStats_DivePhase): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
+  - [4.Calculate_DescritiveStats_Profile](RecoveryTime/4.Calculate_DescritiveStats_Profile): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
+  - [5.StatisticalTests_Phase_Profile](RecoveryTime/5.StatisticalTests_Phase_Profile): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
 
 ## metadata file
 Table containing all information regarding the attachment of the DOME archival tags (e.g., tagging date) including shark measurements.
