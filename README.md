@@ -18,14 +18,16 @@ and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
 
 #### CMEMS_comparison
 This subfolder contains 2 R codes used for evaluating the relationship between in situ (DOME tags) vs modelled (CMEMS) dissolved oxygen (cmems_comparison_o2.R) and temperature (cmems_comparison_tc.R) values.
+The codes calculate mean differences and relative between in situ vs modelled profiles and it creates 3 figures that together constitute figure 9 of the paper.
 
 #### RecoveryTime
 This subfolder contains 4 R codes used for: (1) calculating recovery time using 5 minutes means and build figure 8 (TBF vs post release time) of the paper; defining (2) overall and (3) dive phase (ascents vs descents) descriptive statistics for environmental and shark swimming metrics; (4) applying statistical tests comparisons (Mann-Whitney U test ) between recovery vs post-recovery (normal) periods. 
 
 #### SummaryTables
 This subfolder contains 5 R codes used for: (1) calculating recovery time
+
 ## tables
 Folder that contains tables generated during analysis (e.g., descriptive statistics).
 
-## metadata
-Folder that contains tables generated during analysis (e.g., descriptive statistics).
+## metadata file
+Table with
