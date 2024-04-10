@@ -12,6 +12,12 @@ Temperature data (thetao) from Global Ocean Physics Analysis and Forecast produc
 Folder that contains csv files with environmental (oxygen and temperature) and acceleration-derived swimming metrics (e.g., tailbeat frequency, pitch, odba) previously extracted from IGOR analysis, for all tagged 
 sharks (n =3). 
 
+## tables
+Folder that contains tables generated during analysis (e.g., descriptive statistics).
+
+## figures
+Folder that contains figures generated during analysis (e.g., Modelled vs in situ DO - Figure 9).
+
 ## scripts
 Folder that contains all scrits (codes) used to: calculate recovery times of tagged sharks (RecoveryTime), calculate and compare descriptive statistics of environmental and shark swimming metrics (SummaryTables)
 and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
@@ -25,9 +31,6 @@ This subfolder contains 4 R codes used for: (1) calculating recovery time using 
 
 ##### SummaryTables
 This subfolder contains 5 R codes used for: (1) calculating recovery time
-
-## tables
-Folder that contains tables generated during analysis (e.g., descriptive statistics).
 
 ## metadata file
 Table containing all information regarding the attachment of the DOME archival tags (e.g., tagging date) including shark measurements.
