@@ -39,3 +39,5 @@ and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
 
 ## metadata file
 Table containing all information regarding the attachment of the DOME archival tags (e.g., tagging date) including shark measurements.
+
+## rationale
