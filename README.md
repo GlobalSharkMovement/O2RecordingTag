@@ -1,5 +1,5 @@
 # A new animal-attached archival tag recording in situ dissolved oxygen
-This repository contains codes, files and metadata used in da Costa et al., (submitted to Methods in Ecology and Evolution) where we describe, a new animal-attached (Dissolved Oxygen Measuring, DOME) 
+This repository contains codes, files and metadata used in da Costa et al., (submitted to Methods in Ecology and Evolution) where we describe, a new animal-attached (Dissolved Oxygen Measuring, DOME) tag 
 with an optical oxygen sensor for recording DO, in addition to sensors for temperature and depth, a triaxial accelerometer for fine-scale movements and activity, and a GPS for tag recovery. 
 Here, you can reproduce analysis for calculating recovery time of blue sharks, evaluate shark swimming metrics and compare in situ oxygen and temperature data recorded by the tags with extracted modelled (CMEMS)data.
 
@@ -17,14 +17,13 @@ Folder that contains all scrits (codes) used to: calculate recovery times of tag
 and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
 
 #### CMEMS_comparison
-This subfolder contains 2 R codes used for: (1) calculating recovery time using 5 minutes means and build figure 8 (TBF vs post release time) of the paper; defining (2) overall and (3) dive phase (ascents vs descents) descriptive statistics for environmental and shark swimming metrics; (4) applying statistical tests comparisons (Mann-Whitney U test ) between recovery vs post-recovery (normal) periods. 
+This subfolder contains 2 R codes used for evaluating the relationship between in situ (DOME tags) vs modelled (CMEMS) dissolved oxygen (cmems_comparison_o2.R) and temperature (cmems_comparison_tc.R) values.
 
 #### RecoveryTime
 This subfolder contains 4 R codes used for: (1) calculating recovery time using 5 minutes means and build figure 8 (TBF vs post release time) of the paper; defining (2) overall and (3) dive phase (ascents vs descents) descriptive statistics for environmental and shark swimming metrics; (4) applying statistical tests comparisons (Mann-Whitney U test ) between recovery vs post-recovery (normal) periods. 
 
 #### SummaryTables
-This subfolder contains 4 R codes used for: (1) calculating recovery time using 5 minutes means and build figure 8 (TBF vs post release time) of the paper; defining (2) overall and (3) dive phase (ascents vs descents) descriptive statistics for environmental and shark swimming metrics; (4) applying statistical tests comparisons (Mann-Whitney U test ) between recovery vs post-recovery (normal) periods. 
-
+This subfolder contains 5 R codes used for: (1) calculating recovery time
 ## tables
 Folder that contains tables generated during analysis (e.g., descriptive statistics).
 
