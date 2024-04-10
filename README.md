@@ -9,7 +9,7 @@ Oxygen data (DO) from the Global Ocean Biogeochemistry Analysis and Forecast pro
 Temperature data (thetao) from Global Ocean Physics Analysis and Forecast product (https://doi.org/10.48670/moi-00016).
 
 ## files
-Folder that contains csv files with environmental (oxygen and temperature) and acceleration-derived swimming metrics (e.g., tailbeat frequency, pitch, odba) previously extracted from IGOR analysis, for all tagged 
+Folder that contains csv files with environmental (oxygen and temperature) and acceleration-derived swimming metrics (e.g., tailbeat frequency, pitch, ODBA) at 1Hz, previously extracted from IGOR analysis, for all tagged 
 sharks (n =3). 
 
 ## tables
