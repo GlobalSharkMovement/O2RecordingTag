@@ -23,7 +23,7 @@ Folder that contains all scrits (codes) used to: calculate recovery times of tag
 and compare in situ vs modelled DO/temperature data (CMEMS_comparison).
 
 - CMEMS_comparison
-This subfolder contains 2 R codes used for evaluating the relationship between in situ (DOME tags) vs modelled (CMEMS) dissolved oxygen (cmems_comparison_o2.R) and temperature (cmems_comparison_tc.R) values.
+This subfolder contains 2 R codes used for evaluating the relationship between in situ (DOME tags) vs modelled (CMEMS) dissolved oxygen [cmems_comparison_o2.R] and temperature [cmems_comparison_tc.R] values.
 The codes calculate mean differences and relative between in situ vs modelled profiles and it creates 3 figures that together constitute figure 9 of the paper.
 
 - RecoveryTime
