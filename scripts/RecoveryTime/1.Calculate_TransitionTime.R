@@ -77,10 +77,10 @@ for(i in 1:length(files))
   # save 5 minute TBF mean (will be used to build the final plot) 
   sharkList[[i]] <- data.frame(id = sharkID, pr_time = aggregate_all$pr_time, tbf_mean = aggregate_all$TBF)
   
-  # if shark is blue 4 (no clear pattern of recovery) just save 5 minute means
+  # if shark is blue 4 (no clear pattern of transition time) just save 5 minute means
   if(sharkID == 'blue4'){ next }
   
-  #### RECOVERY TIME ####
+  #### POST-RELEASE TRANSITION TIME ####
   # following Iosilevskii et al., 2022
   
   # mean TBF after 6h of release
