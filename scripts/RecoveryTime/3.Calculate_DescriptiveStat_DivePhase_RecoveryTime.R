@@ -1,5 +1,5 @@
 ### CODE to calculate dive phase (descents vs ascent) descriptive statistics (mean, sd, range) of swimming metrics
-### of tagged sharks for pre vs post-transition (normal) period.
+### of tagged sharks for pre (recovery) vs post-transition (normal) period.
 ### Information was used to build informative tables
 
 # Set timezone to GMT
