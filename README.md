@@ -34,7 +34,7 @@ and compare in situ vs modeled DO/temperature data (CMEMS_comparison).
   - [2.Calculate_DescritiveStats_Overall.R](scripts/SummaryTables/2.Calculate_DescritiveStats_Overall.R): defining overall descriptive statistics for environmental and shark swimming metrics;
   - [3.Calculate_DescritiveStats_DivePhase.R](scripts/SummaryTables/3.Calculate_DescritiveStats_DivePhase.R): defining dive phase (ascents vs descents) descriptive statistics;
   - [4.Calculate_DescritiveStats_Top_vs_Below85m.R](scripts/SummaryTables/4.Calculate_DescritiveStats_Top_vs_Below85m.R): defining descriptive statistics on top (high DO region) and below 85 meters;
-  - [5.StatisticalTests_Phase_Profile.R](scripts/SummaryTables/5.StatisticalTests_Phase_Profile.R): applying statistical comparisons (Mann-Whitney U test ) between dive phase (ascents vs descents) and profile depth (top vs below 85 meters). 
+  - [5.StatisticalTests_Phase&Profile.R](scripts/SummaryTables/5.StatisticalTests_Phase&Profile.R): applying statistical comparisons (Mann-Whitney U test ) between dive phase (ascents vs descents) and profile depth (top vs below 85 meters). 
 
 ## metadata file
 Table containing all information regarding the attachment of the DOME archival tags, including shark measurements.
