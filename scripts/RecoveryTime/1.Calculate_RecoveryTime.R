@@ -1,4 +1,4 @@
-### CODE to calculate recovery time of tagged sharks
+### CODE to calculate post-release transition (recovery) period of tagged sharks
 ### as the point at which the mean TBF dropped below the post-6 h mean value for 20 consecutive minutes
 
 # Set timezone to GMT
