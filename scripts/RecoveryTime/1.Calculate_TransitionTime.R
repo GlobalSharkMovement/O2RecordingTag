@@ -92,25 +92,25 @@ for(i in 1:length(files))
   aggregate_all$count<-  ave(aggregate_all$recovery, cumsum(!aggregate_all$recovery), FUN = cumsum)
   recovery_time<- aggregate_all$pr_time[aggregate_all$count == min_20][1]
 
-  # quick plot to check recovery time (blue vertical line)
+  # quick plot to check post-release transition (recovery) time (blue vertical line)
   plot(aggregate_all$TBF, type = 'b', ylim = c(0.2,0.7))
   abline(v = hour_6, col ='black')
   abline(h = crus_mean, col ='red')
   abline(v = recovery_time, col ='blue')
   
-  # save recovery_time hour
+  # save post-release transition (recovery) hour
   recovery_timesList[[i]]<- data.frame( id = sharkID, recovery_prt = recovery_time, recovey_hour = (recovery_time * time.int)/60, crus_mean)
   print(sharkID)
 
 }
 
-# dataframe with all recovery times
+# dataframe with all transition times
 recovery_tbl<- do.call(rbind,recovery_timesList)
 
 # TBF 5 minute means for both sharks merged 
 shark_tbl<- do.call(rbind,sharkList)
 
-# average mean (S.D.) recovery time 
+# average mean (S.D.) transition time 
 reco_mean<- mean(recovery_tbl$recovey_hour)
 reco_sd<- sd(recovery_tbl$recovey_hour)
 
