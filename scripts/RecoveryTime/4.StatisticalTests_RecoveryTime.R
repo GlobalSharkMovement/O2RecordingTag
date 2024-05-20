@@ -1,4 +1,4 @@
-### CODE to apply statistical tests comparisons (Mann-Whitney U test ) between recovery vs post-recovery (normal) period 
+### CODE to apply statistical tests comparisons (Mann-Whitney U test ) between pre and post-transition (normal) period 
 ### for TBF (both blue2 and blue5) and environmental variables (blue 5)
 
 # Set timezone to GMT
