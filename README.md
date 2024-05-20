@@ -27,14 +27,14 @@ and compare in situ vs modeled DO/temperature data (CMEMS_comparison).
   - [1.Calculate_TransitionTime.R](scripts/TransitionTime/1.Calculate_TransitionTime.R): calculating post-release transition (recovery) time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
   - [2.Calculate_DescriptiveStat_Overall_TransitionTime.R](scripts/TransitionTime/2.Calculate_DescriptiveStat_Overall_TransitionTime.R): defining overall descriptive statistics for environmental and shark swimming metrics for both pre and post-transition periods;
   - [3.Calculate_DescriptiveStat_DivePhase_TransitionTime.R](scripts/TransitionTime/3.Calculate_DescriptiveStat_DivePhase_TransitionTime.R) defining dive phase (ascents vs descents) descriptive statistics for both pre and post-transition periods;
-  - [4.StatisticalTests_TransitionTime](scripts/TransitionTime/3.Calculate_DescriptiveStat_DivePhase_TransitionTime.R): applying statistical comparisons (Mann-Whitney U test ) between pre-transition (recovery) vs post-transition (normal) periods. 
+  - [4.StatisticalTests_TransitionTime.R](scripts/TransitionTime/3.Calculate_DescriptiveStat_DivePhase_TransitionTime.R): applying statistical comparisons (Mann-Whitney U test ) between pre-transition (recovery) vs post-transition (normal) periods. 
 
 - the subfolder [SummaryTables](scripts/SummaryTables) contains five R scripts:
-  - [1.Define_Depth_Threshold](scripts/SummaryTables/1.Define_Depth_Threshold.R): define depth threshold that defines top (high DO) region;
-  - [2.Calculate_DescritiveStats_Overall](scripts/SummaryTables/2.Calculate_DescritiveStats_Overall.R): defining overall descriptive statistics for environmental and shark swimming metrics;
-  - [3.Calculate_DescritiveStats_DivePhase](scripts/SummaryTables/3.Calculate_DescritiveStats_DivePhase.R): defining dive phase (ascents vs descents) descriptive statistics;
-  - [4.Calculate_DescritiveStats_Profile](scripts/SummaryTables/4.Calculate_DescritiveStats_Profile.R): defining descriptive statistics on top (high DO region) and below 85 meters;
-  - [5.StatisticalTests_Phase_Profile](scripts/SummaryTables/5.StatisticalTests_Phase_Profile.R): applying statistical comparisons (Mann-Whitney U test ) between dive phase (ascents vs descents) and profile depth (top vs below 85 meters). 
+  - [1.Define_Depth_Threshold.R](scripts/SummaryTables/1.Define_Depth_Threshold.R): define depth threshold that defines top (high DO) region;
+  - [2.Calculate_DescritiveStats_Overall.R](scripts/SummaryTables/2.Calculate_DescritiveStats_Overall.R): defining overall descriptive statistics for environmental and shark swimming metrics;
+  - [3.Calculate_DescritiveStats_DivePhase.R](scripts/SummaryTables/3.Calculate_DescritiveStats_DivePhase.R): defining dive phase (ascents vs descents) descriptive statistics;
+  - [4.Calculate_DescritiveStats_Profile.R](scripts/SummaryTables/4.Calculate_DescritiveStats_Profile.R): defining descriptive statistics on top (high DO region) and below 85 meters;
+  - [5.StatisticalTests_Phase_Profile.R](scripts/SummaryTables/5.StatisticalTests_Phase_Profile.R): applying statistical comparisons (Mann-Whitney U test ) between dive phase (ascents vs descents) and profile depth (top vs below 85 meters). 
 
 ## metadata file
 Table containing all information regarding the attachment of the DOME archival tags, including shark measurements.
