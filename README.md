@@ -30,7 +30,7 @@ and compare in situ vs modeled DO/temperature data (CMEMS_comparison).
   - [4.StatisticalTests_TransitionTime](RecoveryTime/3.Calculate_DescriptiveStat_DivePhase_TransitionTime.R): applying statistical comparisons (Mann-Whitney U test ) between pre-transition (recovery) vs post-transition (normal) periods. 
 
 - the subfolder [SummaryTables](scripts/SummaryTables) contains five R scripts:
-  - [1.Define_Depth_Threshold](RecoveryTime/1.Define_Depth_Threshold): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
+  - [1.Define_Depth_Threshold](RecoveryTime/1.Define_Depth_Threshold): define depth threshold that defines end of high DO region;
   - [2.Calculate_DescritiveStats_Overall](RecoveryTime/2.Calculate_DescritiveStats_Overall): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
   - [3.Calculate_DescritiveStats_DivePhase](RecoveryTime/3.Calculate_DescritiveStats_DivePhase): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
   - [4.Calculate_DescritiveStats_Profile](RecoveryTime/4.Calculate_DescritiveStats_Profile): calculating recovery time using 5 minutes means and building figure 8 (TBF vs post-release time) of the paper;
