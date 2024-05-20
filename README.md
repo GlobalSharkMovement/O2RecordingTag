@@ -1,6 +1,5 @@
 # A new animal-attached archival tag recording in situ dissolved oxygen
-This repository contains codes, files and metadata used in da Costa et al., (submitted to Methods in Ecology and Evolution) where we describe, a new animal-attached (Dissolved Oxygen Measuring, DOME) tag 
-with an optical oxygen sensor for recording DO, in addition to sensors for temperature and depth, a triaxial accelerometer for fine-scale movements and activity, and a GPS for tag recovery. 
+This repository contains codes, files and metadata used in da Costa et al., manuscript (published in Methods in Ecology and Evolution) where we describe, a new animal-attached (Dissolved Oxygen Measuring, DOME) tag with an optical oxygen sensor for recording DO, in addition to sensors for temperature and depth, a triaxial accelerometer for fine-scale movements and activity, and a GPS for tag recovery. 
 Here, you can reproduce analysis for calculating the post-release transition period of blue sharks, evaluate shark swimming metrics and compare in situ oxygen and temperature data recorded by the tags with extracted modeled (CMEMS)data.
 
 ## cmems
