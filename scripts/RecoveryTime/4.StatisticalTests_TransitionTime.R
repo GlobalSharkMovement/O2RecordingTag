@@ -45,10 +45,10 @@ for(i in 1:length(files)){
   # split into 5 minute 
   envdata$split<- cut(envdata$time, '5 mins')
 
-  # get calculateed recovery hour for S1 (blue2) and S4 (blue5)
+  # get calculated transition hour for S1 (blue2) and S4 (blue5)
   if(sharkID == 'blue2'){ recovery_hour<-envdata$time[1] + (2.16*60*60) } else{ recovery_hour<-envdata$time[1] + (5.08*60*60)}
   
-  # split main dataframe into recovery and post recovery
+  # split main dataframe into pre (recovery) and post-transition (normal)
   recovery_tbl<- envdata[envdata$time<recovery_hour,]
   normal_tbl<- envdata[envdata$time>=recovery_hour,]
   
@@ -61,7 +61,7 @@ for(i in 1:length(files)){
   normal_tbl<-  na.omit(normal_tbl) 
 
   # TBF (tail-beat frequency)
-  # boxplot and Wilcox - Mann-Whitney U test comparisons between recovery and post-recovery phase
+  # boxplot and Wilcox - Mann-Whitney U test comparisons between pre (recovery) and post-transition (normal) periods
   # on paper, reported individual comparison for shark blue2 (S1) and blue 5(S4)
   boxplot(recovery_tbl$TBF, normal_tbl$TBF, names=c("Recovery","Crusing"), ylim=c(0,1))
   wilcox.test(recovery_tbl$TBF, normal_tbl$TBF)
