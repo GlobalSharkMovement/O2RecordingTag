@@ -1,5 +1,5 @@
 ### CODE to calculate dive phase (descents vs ascent) descriptive statistics (mean, sd, range) of swimming metrics
-### of tagged sharks for recovery vs post-recovery (normal) period.
+### of tagged sharks for pre vs post-transition (normal) period.
 ### Information was used to build informative tables
 
 # Set timezone to GMT
@@ -20,7 +20,7 @@ tableDir<- paste0(folder,'/tables/')
 files<-list.files(folder, pattern= '-accdata2.csv', recursive = TRUE)	
 files<- files[grep('blue4',files, invert = TRUE)]
 
-# create list to save descriptive statistics generated on the loop (for recovery and normal - post recovery period)
+# create list to save descriptive statistics generated on the loop (for pre and normal - post transition period)
 # for each shark id
 sharkList_recovery<- list()
 sharkList_normal<- list()
@@ -90,17 +90,17 @@ for(i in 1:length(files)){
   envdata$burst<-  ifelse(envdata$odba1Hz >=odba_95 & envdata$TBF >=tbf_95 , 1,0)
   envdata$burst[is.na(envdata$burst)]<- 0
   
-  # define recovery time
+  # define transition time
   # for blue 2 (S1) is 2.16 while blue 5 is 5.08 hours
   if(sharkID == 'blue2'){ recovery_hour<-envdata$time[1] + (2.16*60*60) } else{ recovery_hour<-envdata$time[1] + (5.08*60*60)}
   
-  # split main dataframe into recovery and post-recovery (normal)
+  # split main dataframe into pre (recovery) and post-transition (normal)
   recovery_tbl<- envdata[envdata$time<recovery_hour,]
   normal_tbl<- envdata[envdata$time>=recovery_hour,]
   
   ## SAVE STATISTICS
   
-  # save descriptive statistics for recovery period
+  # save descriptive statistics for pre transition period
   sharkList_recovery[[i]] <- data.frame(
     
     ID = sharkID,
@@ -188,7 +188,7 @@ for(i in 1:length(files)){
   )
   
   
-  # save descriptive statistics for post-recovery period
+  # save descriptive statistics for post-transition period
   sharkList_normal[[i]] <- data.frame(
     
     ID = sharkID,
@@ -280,11 +280,11 @@ print(sharkID)
 }
   
   
-  # merge recovery stats
+  # merge pre-transition stats
   mean_shark_recovery<- do.call(rbind,sharkList_recovery)
   mean_shark_recovery<- data.frame(period = 'recovery',mean_shark_recovery)
   
-  # merge post-recovery stats
+  # merge post-transition stats
   mean_shark_normal<- do.call(rbind,sharkList_normal )
   mean_shark_normal<- data.frame(period = 'normal',mean_shark_normal)
   
