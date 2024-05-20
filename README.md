@@ -30,11 +30,11 @@ and compare in situ vs modeled DO/temperature data (CMEMS_comparison).
   - [4.StatisticalTests_TransitionTime](RecoveryTime/3.Calculate_DescriptiveStat_DivePhase_TransitionTime.R): applying statistical comparisons (Mann-Whitney U test ) between pre-transition (recovery) vs post-transition (normal) periods. 
 
 - the subfolder [SummaryTables](scripts/SummaryTables) contains five R scripts:
-  - [1.Define_Depth_Threshold](SummaryTables/1.Define_Depth_Threshold): define depth threshold that defines top (high DO) region;
-  - [2.Calculate_DescritiveStats_Overall](SummaryTables/2.Calculate_DescritiveStats_Overall): defining overall descriptive statistics for environmental and shark swimming metrics;
-  - [3.Calculate_DescritiveStats_DivePhase](SummaryTables/3.Calculate_DescritiveStats_DivePhase): defining dive phase (ascents vs descents) descriptive statistics;
-  - [4.Calculate_DescritiveStats_Profile](SummaryTables/4.Calculate_DescritiveStats_Profile): defining descriptive statistics on top (high DO region) and below 85 meters;
-  - [5.StatisticalTests_Phase_Profile](SummaryTables/5.StatisticalTests_Phase_Profile): applying statistical comparisons (Mann-Whitney U test ) between dive phase (ascents vs descents) and profile depth (top vs below 85 meters). 
+  - [1.Define_Depth_Threshold](SummaryTables/1.Define_Depth_Threshold.R): define depth threshold that defines top (high DO) region;
+  - [2.Calculate_DescritiveStats_Overall](SummaryTables/2.Calculate_DescritiveStats_Overall.R): defining overall descriptive statistics for environmental and shark swimming metrics;
+  - [3.Calculate_DescritiveStats_DivePhase](SummaryTables/3.Calculate_DescritiveStats_DivePhase.R): defining dive phase (ascents vs descents) descriptive statistics;
+  - [4.Calculate_DescritiveStats_Profile](SummaryTables/4.Calculate_DescritiveStats_Profile.R): defining descriptive statistics on top (high DO region) and below 85 meters;
+  - [5.StatisticalTests_Phase_Profile](SummaryTables/5.StatisticalTests_Phase_Profile.R): applying statistical comparisons (Mann-Whitney U test ) between dive phase (ascents vs descents) and profile depth (top vs below 85 meters). 
 
 ## metadata file
 Table containing all information regarding the attachment of the DOME archival tags, including shark measurements.
